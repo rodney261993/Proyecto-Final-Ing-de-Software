@@ -2,7 +2,7 @@
 //LOCAL HOST
 // $link = mysqli_connect("127.0.0.1:3306", "root", "", "Portal"); //Conexion a la base de datos
 
-//AWS
+//Azure
 function db_connection() {
     try {
         $link = mysqli_connect("ip", "username", "password", "database"); //Conexion a la base de datos
@@ -14,5 +14,5 @@ function db_connection() {
     return $link;
 }
 
-
+// pruebaa
  ?>
