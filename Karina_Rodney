@@ -1,6 +1,8 @@
 <?php
 
-$url = "https://github.com/Materias-6-Creditos-UTP/Proyecto-Final-Ing-de-Software"; $urlexists = url_exists( $url);
+$url = "https://github.com/Materias-6-Creditos-UTP/Proyecto-Final-Ing-de-Software"; 
+
+$urlexists = url_exists( $url);
 
 function url_exists( $url = NULL ) {
 
