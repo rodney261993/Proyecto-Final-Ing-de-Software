@@ -49,7 +49,6 @@ function getusers() {
                                 );
 
             $contador = $contador + 1;
-            
           }
   
        
