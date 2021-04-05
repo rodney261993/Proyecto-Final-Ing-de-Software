@@ -25,7 +25,7 @@
                     <div class="btn-section"> 
                         <!-- Aquí se encuentran los botones que ejecutarán el modal de cada grupo-->
                         <!-- Para que les funcione solo deben modificar en su respectivo boton el atributo ** data-bs-target ** y poner el ID de su MODAL-->
-                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">1.1 Formulario</a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ruben_anthony">1.1 Formulario</a>
                         <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#omar_mc">1.2 Lectura y generación de JSON</a>
                         <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">1.3 Lectura y generación de XML</a>
                         <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">1.4 App para lectura de XML</a>
@@ -77,10 +77,41 @@
     </div>
   </div>
 </div>
-<!-- ------------- PLANTILLA DE MODAL (VENTANA EMERGENTE)  ------------- -->
 
+<!-- ------------- 1.1 FORMULARIO  ------------- -->
 
+<div class="modal fade" id="ruben_anthony" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> <!-- Modificar el id para colocar en el boton-->
+  <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+          <div class="content">
+            <h3 class="modal-title d-block" id="staticBackdropLabel">TEMA DEL GRUPO</h3> <!-- Modificar -->
+            <h4>Ruben Mojica y Anthony Pinto</h4> <!-- Modificar -->
+          </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./img/ruben_anthony.png" alt="Ruben y Anthony"> <!-- Modificar el src para poner la captura de pantalla de cada grupo-->
+            </div>
 
+            <div class="grid-item">
+                <h3>Descripción del módulo</h3>
+                
+                <p>La función del formulario es recabar los datos necesarios para llevar a cabo la actividad correspondiente que se solicita que puede ser: originar una acción, registrar una acción o informar los resultados de una acción.</p> <!-- Modificar -->
+                
+                <a href = "/formulario.html" class="btn btn-danger">Ir al módulo</a> <!-- Modificar el href-->
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ------------- RUBEN Y ANTHONY (VENTANA EMERGENTE)  ------------- -->
 
 
 
